@@ -1,0 +1,37 @@
+@import url("./star.css");
+@import url("./button.css");
+
+:root {
+  --background: hsl(260, 23%, 7%);
+  --glow-dark: hsl(154, 99%, 55%);
+  --pale-light: hsl(164, 67%, 70%);
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+#score {
+  margin-top: 50px;
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

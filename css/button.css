@@ -1,0 +1,25 @@
+#start {
+  background-color: var(--pale-light);
+  font-size: 30px;
+  color: var(--background);
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 0px 20px var(--glow-dark);
+  transform: scale(1);
+  transition: transform 200ms ease;
+  display: block;
+  text-decoration: none;
+}
+
+#start:hover {
+  transform:scale(1.05);
+  text-decoration: none;
+}
+
+#start:active {
+  outline: none;
+  transform: scale(0.95);
+  text-decoration: none;
+}
